@@ -25,14 +25,18 @@
     ```python
     val = 3 
     print(type(val)) # int type
+
     # 리스트(수정가능)
     arr = [1,2,3,4,5,6,7,8,9,10]
+
     # 튜플(수정불가능)
     tuple1 = (1,2,3,4)
+
     # 딕셔너리{} : key와 value로 구성(순서 상관없다)
     spiderman = { 'name' : 'Peter Parker',
                    'age' : 18,
                 'weapon' : 'Web Shooter'}
+                
     # 집합 : 중복을 혀용하지 않음
     set1 = set('Hello')
     print(set1)
