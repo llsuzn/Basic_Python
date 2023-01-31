@@ -100,4 +100,9 @@
     print(hi.rstrip() + '|') # 오른쪽 공백 지움
     print(hi.strip() + '|') # 공백 모두 제거
     ```
+    ```python
+    # 모든 단어를 대/소문자로 변경
+    print(full_name.upper()) # 대문자
+    print(full_name.lower()) # 소문자
+    ```
     - 흐름제어
