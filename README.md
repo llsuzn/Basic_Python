@@ -74,4 +74,30 @@
     que.insert(1,6) # <변수>.insert()함수 => 원하는 인덱스에 원하는 값 삽입(추가)
     asd.remove(1) # 중복되는 값이 있다면 낮은 인덱스 번호부터 차례대로 제거된다.
     ```
+    ```python
+    # 문자열 == 문자열 리스트
+    title = 'hello world'
+    print('H' + title[1:6] + 'W' + title[7:])
+    ```
+    ```python
+    # 문자열 포맷팅
+    print("I'm so happy {0} {1}!!".format(2,'you')) # 구식
+    print(f"I'm so happy {'2'} {'you'}!!") # 최신식 문자열 포맷팅
+    ```
+    ```python
+    # split() : 문자열을 특정문자로 자르기
+    full_name = 'lee su.jin'
+    vals = full_name.split() # 공백 기준으로 문자열 쪼갬
+    ```
+    ```python
+    # replace()
+    print(full_name.replace('lee','kim'))
+    ```
+    ```python
+    # 문자열 공백 없애기 lstrip() retrip() strip()
+    hi = '          Hello~ Bye~          '
+    print(hi.lstrip() + '|') # 왼쪽 공백 지움
+    print(hi.rstrip() + '|') # 오른쪽 공백 지움
+    print(hi.strip() + '|') # 공백 모두 제거
+    ```
     - 흐름제어
