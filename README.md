@@ -105,4 +105,3 @@
     print(full_name.upper()) # 대문자
     print(full_name.lower()) # 소문자
     ```
-    - 흐름제어
