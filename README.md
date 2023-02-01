@@ -1,6 +1,12 @@
 # StudyPython2023
 부경대 IoT 파이썬 학습 리포지토리
 
+## 단축키 안내
+1. 단어 모두 선택/편집 : ctrl + shift + L
+2. 단어 검색 : ctrl + F
+3. 단어 하나씩 추가로 선택 : ctrl + D
+4. 단어 검색해서 바꾸기 : ctrl + H
+
 ## Day1
 1. 기본구성
     - 개발환경 구성
@@ -135,7 +141,7 @@
             hit += 1 
             print(f'나무를 {hit:2d}번 찍었습니다') # :2d는 2칸 확보 후 10진수로 출력, 2b는 2진수
         ```
-         - 구구단 프로그램
+        - 구구단 프로그램
          ```python
          for i in range(2,10):
          print(f'{i}단')
@@ -143,7 +149,7 @@
             print(f'{i} X {j} = {i*j:<2}',end=' ')  # :>2 2칸 할당하고 오른쪽 정렬, :<2 2칸 할당하고 왼쪽 정렬 
          print(end = '\n') # print('') 단 끝날 때 마다 줄바꿈
          ```
-         - 함수
+        - 함수
          ```python
           def add(x,y): # 함수정의
             result = x + y
@@ -153,3 +159,8 @@
           a,b = map(int, input().split()) # map(function, iterable)
           print(add(a,b))
          ```
+        - 객체지향
+        ```python
+
+        ```
+        - 
