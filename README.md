@@ -135,12 +135,12 @@
             hit += 1 
             print(f'나무를 {hit:2d}번 찍었습니다') # :2d는 2칸 확보 후 10진수로 출력, 2b는 2진수
         ```
-    - 구구단 프로그램
-    ```python
-    for i in range(2,10):
-    print(f'{i}단')
-    for j in range(1,10):
-        print(f'{i} X {j} = {i*j:<2}',end=' ')  # :>2 2칸 할당하고 오른쪽 정렬, :<2 2칸 할당하고 왼쪽 정렬 
-    print(end = '\n') # print('') 단 끝날 때 마다 줄바꿈
-    ```
-    - 함수
+         - 구구단 프로그램
+        ```python
+        for i in range(2,10):
+        print(f'{i}단')
+        for j in range(1,10):
+            print(f'{i} X {j} = {i*j:<2}',end=' ')  # :>2 2칸 할당하고 오른쪽 정렬, :<2 2칸 할당하고 왼쪽 정렬 
+        print(end = '\n') # print('') 단 끝날 때 마다 줄바꿈
+         ```
+          - 함수
