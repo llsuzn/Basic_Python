@@ -143,7 +143,7 @@
             print(f'{i} X {j} = {i*j:<2}',end=' ')  # :>2 2칸 할당하고 오른쪽 정렬, :<2 2칸 할당하고 왼쪽 정렬 
          print(end = '\n') # print('') 단 끝날 때 마다 줄바꿈
          ```
-          - 함수
+         - 함수
          ```python
           def add(x,y): # 함수정의
             result = x + y
