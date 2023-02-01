@@ -6,8 +6,10 @@
     - ctrl + shift + L
 2. 단어 검색
     - ctrl + F
-3. 단어 하나씩 추가로 선택 : ctrl + D
-4. 단어 검색해서 바꾸기 : ctrl + H
+3. 단어 하나씩 추가로 선택
+    - ctrl + D
+4. 단어 검색해서 바꾸기 
+    - ctrl + H
 
 ## Day1
 1. 기본구성
@@ -161,8 +163,3 @@
           a,b = map(int, input().split()) # map(function, iterable)
           print(add(a,b))
          ```
-        - 객체지향
-        ```python
-
-        ```
-        - 
