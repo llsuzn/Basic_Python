@@ -105,3 +105,42 @@
     print(full_name.upper()) # 대문자
     print(full_name.lower()) # 소문자
     ```
+
+
+## Day3
+1. 파이썬 기본
+    - 흐름제어
+        - if
+        ```python
+        if name == '수진':
+            print('진료실 입장')
+        elif name == '규수':
+            print('잠시 대기')
+        else:
+            print('진료실 입장불가')
+        ```
+        - for
+        ```python
+        for item in arr: # arr리스트의 첫 인덱스 요소부터 차례대로 변수에 할당
+            print(f'{item:2.2f}') # {:2.2f}에서 :2의 의미는 결과값의 정수 자리에 2칸을 할당하라는 의미이고, ".2f"의 의미는 소수점 둘째 자리까지 표현하라는 의미이다
+        
+        # 리스트 선언에서도 사용가능
+        val = [i for i in range(1,11)]
+        print(val)
+        ```
+        - while
+        ```python
+        hit = 0
+        while hit < 11:
+            hit += 1 
+            print(f'나무를 {hit:2d}번 찍었습니다') # :2d는 2칸 확보 후 10진수로 출력, 2b는 2진수
+        ```
+    - 구구단 프로그램
+    ```python
+    for i in range(2,10):
+    print(f'{i}단')
+    for j in range(1,10):
+        print(f'{i} X {j} = {i*j:<2}',end=' ')  # :>2 2칸 할당하고 오른쪽 정렬, :<2 2칸 할당하고 왼쪽 정렬 
+    print(end = '\n') # print('') 단 끝날 때 마다 줄바꿈
+    ```
+    - 함수
