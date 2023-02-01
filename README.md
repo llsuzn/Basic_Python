@@ -144,3 +144,12 @@
         print(end = '\n') # print('') 단 끝날 때 마다 줄바꿈
          ```
           - 함수
+         ```python
+          def add(x,y): # 함수정의
+            result = x + y
+            print('덧셈 결과')
+            return result
+
+          a,b = map(int, input().split()) # map(function, iterable)
+          print(add(a,b))
+         ```
