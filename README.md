@@ -163,3 +163,9 @@
           a,b = map(int, input().split()) # map(function, iterable)
           print(add(a,b))
          ```
+
+## Day4
+1. a
+    - f
+        - d
+        
