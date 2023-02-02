@@ -191,6 +191,14 @@ IoT 파이썬 학습 리포지토리
         ```python
             lee = Person()
         ```
+        ```python
+            class Car:
+                def __init__(self,number = '88호 8888') -> None:
+                    self.__number = number
+            
+            yourcar = Car('99진 9999')
+        ```
         - 상속 (부모 클래스/ 자식 클래스)
     - 패키지, 모듈(클래스O, 클래스X)
+    
         
