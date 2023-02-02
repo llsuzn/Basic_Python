@@ -52,7 +52,7 @@ print(sujin.blood_type)
 sujin.run('Fast')
 print(sujin)
 
-# 1. 초기화 후 객체생성
+# 1. 초기화 후 객체생성 
 lee = Person()
 lee.run('Slow')
 print(lee)
