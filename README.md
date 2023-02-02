@@ -167,6 +167,20 @@
 ## Day4
 1. 파이썬 기본
     - 가상환경
+        - pip install virtualenv (가상개발환경 설치)
+        - 가상환경 스위치
     - 객체지향  OPP
+        - 클래스(속성과 함수로 구성)
+        ```python
+            class Person:
+                name = '익명' #속성변수
+                
+                def walk():
+                    print('걷습니다.')
+
+            sujin = Person() # person 클래스로 새로운 객체(인스턴스..sujin) 생성
+            sujin.name = '이수진' # 객체 속성변수의 name에 '이수진' 대입
+            print(sujin.name)
+        ```
     - 패키지
         
