@@ -210,10 +210,10 @@ IoT 파이썬 학습 리포지토리
         <모듈함수>()
     ```
     ```python
-    # 함수만 포함된 모듈
-    import mod01
+        # 함수만 포함된 모듈
+        import mod01
 
-    print(mod01.sum(4,5))
+        print(mod01.sum(4,5))
     ```
     ```python
         # 클래스 포함된 모듈
