@@ -175,12 +175,17 @@
             class Person:
                 name = '익명' #속성변수
                 
-                def walk():
-                    print('걷습니다.')
+                def run(self,option):
+                    if option == 'Fast':
+                        self.walk()
+                        print(f'{self.name}이(가) 빨리 뜁니다')
+                    else:
+                        print(f'{self.name}이(가) 천천히 뜁니다')
 
             sujin = Person() # person 클래스로 새로운 객체(인스턴스..sujin) 생성
             sujin.name = '이수진' # 객체 속성변수의 name에 '이수진' 대입
             print(sujin.name)
+            sujin.run('Fast')
         ```
     - 패키지
         
