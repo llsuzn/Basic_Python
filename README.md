@@ -1,4 +1,4 @@
-# StudyPython2023
+# StudyPython20231
 부경대 IoT 파이썬 학습 리포지토리
 
 ## 단축키 안내
