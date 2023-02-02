@@ -187,7 +187,7 @@ IoT 파이썬 학습 리포지토리
             print(sujin.name)
             sujin.run('Fast')
         ```
-        - 생성자()
+        - 생성자() 
         ```python
             lee = Person()
         ```
@@ -199,7 +199,7 @@ IoT 파이썬 학습 리포지토리
             yourcar = Car('99진 9999')
         ```
         - 상속 (부모 클래스/ 자식 클래스)
-    - 패키지, 모듈(클래스O, 클래스X)
+    - 패키지, 모듈(클래스X, 클래스O)
     ```python
         import <모듈이름>
         <모듈이름>.<모듈함수>()
@@ -208,5 +208,12 @@ IoT 파이썬 학습 리포지토리
 
         from <모듈이름> import <모듈함수>
         <모듈함수>()
+    ```
+    ```python
+        import mod02 as m2
+
+        abc = m2.Math()
+        result = abc.sum(8,9)
+        print(result)
     ```
         

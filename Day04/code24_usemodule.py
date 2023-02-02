@@ -1,6 +1,7 @@
 #모듈 사용
 # 클래스로 안 된 모듈
 import math as m  # math 모듈을 m이라고 지칭..사용할 때도 m으로 사용한다
+
 # 우리가 만든 클래스
 #모듈 불러오는 방법 1
 import code22_person as p
