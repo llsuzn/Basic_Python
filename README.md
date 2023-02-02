@@ -170,7 +170,7 @@
         - pip install virtualenv (가상개발환경 설치)
         - 가상환경 스위치
     - 객체지향  OPP
-        - 클래스(속성과 함수로 구성)
+        - 클래스(속성과 함수로 구성),매개변수 필요없음
         ```python
             class Person:
                 name = '익명' #속성변수
@@ -187,5 +187,10 @@
             print(sujin.name)
             sujin.run('Fast')
         ```
-    - 패키지
+        - 생성자()
+        ```python
+            lee = Person()
+        ```
+        - 상속 (부모 클래스/ 자식 클래스)
+    - 패키지, 모듈(클래스O, 클래스X)
         
