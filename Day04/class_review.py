@@ -64,11 +64,11 @@ romio + juliet
 juliet + romio
 juliet.love(romio)
 
+
 # 클래스 최종 복습
 # 박응용은 부산에 놀러 가고 김줄리엣도 우연히 3일동안 부산에 놀러간다
 # 둘은 사랑에 빠져 결혼하게 된다
 # 그러다가 바로 싸우고 이혼한다
-
 class HousePark:
     lastname = '박'
 
@@ -95,11 +95,6 @@ class HouseKim(HousePark):
 
     def travel(self, where,day):
         print(f'{self.fullname},{where} 여행 {day}일 가다.')
-
-        
-
-
-   
 
 pey = HousePark('응용')
 juliet = HouseKim('줄리엣')

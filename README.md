@@ -223,4 +223,32 @@ IoT 파이썬 학습 리포지토리
         result = abc.sum(8,9)
         print(result)
     ```
+## Day5
+1. 파이썬 기본
+    - 패키지 계속
+        - urllib 패키지
+        ```python
+            from urllib.request import Request,urlopen
+
+            req = Request('https://www.naver.com') # reauest 클래스로 객체 생성/웹사이트 요청
+            res = urlopen(req) # 결과 : 200
+            print(res.status) # https 코드 (주소 (숫자) 로도 웹주소 표현가능) / ex)404는 page not found
+        ```
+        - requests 패키지 설치 및 실행
+        ```python
+            # pip install requests 터미널 창 실행 후
+            import requests
+
+            res = requests.get('https://www.naver.com')
+            print(res.status_code)
+            print('=' * 200)
+            print(res.content) # 웹페이지 정보(.html)
+        ```
+        - ramdom 모듈 사용(use_module.py)
+    - 입출력 다시
+        - 파일 입출력
+    - 예외처리 
+    - 객체지향 다시 
+2. 
+
         
