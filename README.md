@@ -297,11 +297,9 @@ IoT 파이썬 학습 리포지토리
     - 예외처리 
     ```python
     try:
-    print(div(x,y))
-    except:
-        print('나누기 실패 : 0으로 나누기 시도')
+        print(div(x,y))
+    except Exception as e:
+        print(e)
     ```
     - 객체지향 다시 
-2. 
-
         

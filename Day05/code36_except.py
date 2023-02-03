@@ -11,7 +11,14 @@ def div(a,b):
 # x,y = input('두 수를 입력하세요 : ').split()
 # x = int(x)
 # y = int(y)
-x,y = map(int,input('두 수 입력: ').split())
+
+try:
+    x,y = map(int,input('두 수 입력: ').split())
+except Exception as e:
+    print(e)
+    exit()
+finally: # 무조건 출력 , except구문 후 실행
+    print('계속됩니다')
 
 # 원시적인 예외처리
 # if y == 0:
@@ -22,8 +29,12 @@ print('calc test')
 
 try:
     print(div(x,y))
-except:
-    print('나누기 실패 : 0으로 나누기 시도')
+# except ZeroDivisionError as e:
+#     print('0으로 나누면 안돼요')
+except Exception as e: # except Exception는 제일 마지막에 넣어줘야한다!무조건!...에러 범위 가장 넓음
+    print(e)
+finally: # 예외 유무와 상관없이 무조건 실행
+    print('계산은 계속됩니다')
 
 print(add(x,y))
 print(mul(x,y))
