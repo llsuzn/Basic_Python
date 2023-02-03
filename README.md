@@ -247,6 +247,21 @@ IoT 파이썬 학습 리포지토리
         - ramdom 모듈 사용(use_module.py)
     - 입출력 다시
         - 파일 입출력
+            - 다중입력
+            ```python
+            # 다중입력(개수 제한 없음)
+            #inputs = map(int, input('숫자를 입력하세요(\' \'): ').split())
+            inputs = list(map(str, input('문자를 입력하세요(\' \'): ').split()))
+            print(inputs) #['안녕하세요', '이수진입니다.']
+
+            # []없이 출력
+            inputs = list(map(int, input('정수를 입력하세요(\' \'): ').split()))
+            print(*inputs) # 1999 11 30
+
+            # []없이 and ' '없이 출력
+            for i in range(len(inputs)):
+                print(f'{inputs[i]}',end='')
+            ```
     - 예외처리 
     - 객체지향 다시 
 2. 
