@@ -301,5 +301,4 @@ IoT 파이썬 학습 리포지토리
     except Exception as e:
         print(e)
     ```
-    - 객체지향 다시 
         
