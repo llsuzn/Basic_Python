@@ -28,6 +28,7 @@ def new_calc(x,y):
 #(res1,res2,res3,res4) = mul_and_div(10,2)
 res1,res2,res3,res4 = new_calc(10,2)
 
+# if __name__ == '__main__':  제일 마지막에 써야함
 if __name__ == '__main__': # code28에서 import할 때 실행 안 됨
     print(calc('add',180,5,3,3,2))
     print(calc('mul',180,5,3,3,2))

@@ -246,7 +246,7 @@ IoT 파이썬 학습 리포지토리
         ```
         - ramdom 모듈 사용(use_module.py)
     - 입출력 다시
-        - 파일 입출력
+        - 입력 : input()
             - 다중입력
             ```python
             # 다중입력(개수 제한 없음)
@@ -262,7 +262,45 @@ IoT 파이썬 학습 리포지토리
             for i in range(len(inputs)):
                 print(f'{inputs[i]}',end='')
             ```
+            - 파일 쓰기
+            ```python
+            file = open('./Day05/sample.txt', 'w', encoding='utf-8')
+            file.write('hello.\n') # w : O [hello.]
+            
+            file.close()
+            ```
+            - 파일 읽기
+            ```python
+            file = open('./Day05/sample.txt','r',encoding='utf-8')
+            while True:
+            text = file.read()
+
+            if not text: break
+
+            print(text)
+
+            file.close()
+            ```
+            - cvs 파일 읽기
+            ```python
+            import csv
+            fullPath = 'C:/Source/StudyPython2023/busanbus.csv'
+            file = open(fullPath ,'r', encoding='utf-8')
+            reader = csv.reader(file, delimiter=',')
+            next(reader)
+            for line in reader:
+                print(line)
+
+            file.close()
+            ```
+
     - 예외처리 
+    ```python
+    try:
+    print(div(x,y))
+    except:
+        print('나누기 실패 : 0으로 나누기 시도')
+    ```
     - 객체지향 다시 
 2. 
 
