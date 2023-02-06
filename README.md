@@ -311,6 +311,7 @@ IoT 파이썬 학습 리포지토리
         - 다중상속
 
 2. 파이썬 응용
-    - 주소록 프로그램
+    - 주소록 프로그램 [소스](https://github.com/llsuzn/Python/blob/main/Project/address_app.py)
     - 파일 텍스트 DB
+    -실행화면-
     ![실행화면](https://github.com/llsuzn/Python/blob/main/images/address_app.png?raw=true)
