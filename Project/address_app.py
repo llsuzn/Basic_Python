@@ -14,7 +14,7 @@ class Contact:
         self.__addr = addr
 
     # 4. __str__ 재정의
-    def __str__(self) -> str:
+    def __str__(self) -> str: # 클래스 자체의 내용을 출력하고 싶을 때(init에서 규정한)
         str_res = (f'이  름 : {self.__name}\n'
                    f'핸드폰 : {self.__phone_number}\n'
                    f'이메일 : {self.__e_mail}\n'

@@ -317,3 +317,35 @@ IoT 파이썬 학습 리포지토리
    
    ![실행화면](https://github.com/llsuzn/Python/blob/main/images/address_app.png?raw=true)
     - 주피터 노트북
+
+## Day07
+1. 파이썬 응용
+    - 주피터 노트북 사용법
+        - 노트북 생성[파일 -> 새파일(ctrl+alt+윈도우+N)]
+        - esc -> m : 마크다운, y : 파이썬
+        - folium 지도사용법
+        [Folium 지도사용법]()
+    - 리스트 연산 추가
+    - 자료구조 추가
+    - 라이브러리 사용법
+    - 윈폼 개발(GUI)
+    - 응용 학습
+    - json
+    ```json
+    # json 기본 구조
+    {
+    "ionic" : {
+        "price" : 20000000,
+        "year" : "2022"
+    },
+    "genesis" : {
+        "price" : 80000000,
+        "year" : "2021"
+    }
+    }
+    ```
+
+## Day08
+- 웹 크롤링
+- GUI(윙폼)
+- 웹_파이썬

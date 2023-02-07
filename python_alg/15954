@@ -1,5 +1,5 @@
 import math
-def average(doll):
+def average(doll): # 평균
     sum = 0
     avg = 0
     for i in range(len(doll)):
@@ -7,7 +7,7 @@ def average(doll):
     avg = sum / len(doll)
     return avg
 
-def variance(select,mean):
+def variance(select,mean): # 분산
     vsum = 0
     for val in select:
         vsum = vsum + (val - mean) ** 2
@@ -21,9 +21,9 @@ std = 0
 stdmin = 100
 
 doll = list(map(int,input().split()))
-mean = average(doll)
 for i in range(N-K+1):
     select = doll[i:i+3]
+    mean = average(select)
     var = variance(select,mean)
     std = math.sqrt(var)# 표준편차 결과
     if std <  stdmin:

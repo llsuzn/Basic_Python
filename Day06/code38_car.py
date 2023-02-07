@@ -6,7 +6,7 @@ class Car:
     __plate_number = ''
     __product_year = 1900
 
-    def __str__(self) -> str:
+    def __str__(self) -> str: 
         return '부모 클래스'
 
     def get_name(self):
