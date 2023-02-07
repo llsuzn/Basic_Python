@@ -324,7 +324,7 @@ IoT 파이썬 학습 리포지토리
         - 노트북 생성[파일 -> 새파일(ctrl+alt+윈도우+N)]
         - esc -> m : 마크다운, y : 파이썬
         - folium 지도사용법
-        [Folium 지도사용법]()
+        [Folium 지도사용법](Day07/code43_folium_tutorial.ipynb)
     - 리스트 연산 추가
     - 자료구조 추가
     - 라이브러리 사용법
