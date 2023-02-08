@@ -351,6 +351,7 @@ IoT 파이썬 학습 리포지토리
     - 웹 크롤링
         - 기상청 오늘의 날씨 크롤링
         - 데이터 포털 OpenAPI 크롤링
+        ![실행화면](https://github.com/llsuzn/Python/blob/main/images/folium.png?raw=true)
         - BeautifulSoup 크롤링
 
 ## Day9
