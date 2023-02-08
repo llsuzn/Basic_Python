@@ -318,7 +318,7 @@ IoT 파이썬 학습 리포지토리
    ![실행화면](https://github.com/llsuzn/Python/blob/main/images/address_app.png?raw=true)
     - 주피터 노트북
 
-## Day07
+## Day7
 1. 파이썬 응용
     - 주피터 노트북 사용법
         - 노트북 생성[파일 -> 새파일(ctrl+alt+윈도우+N)]
@@ -326,10 +326,9 @@ IoT 파이썬 학습 리포지토리
         - folium 지도사용법
         [Folium 지도사용법](Day07/code43_folium_tutorial.ipynb)
     - 리스트 연산 추가
-    - 자료구조 추가
     - 라이브러리 사용법
-    - 윈폼 개발(GUI)
-    - 응용 학습
+        - folium (지도 라이브러리)사용법
+        [Folium 지도사용법](Day07/code43_folium_tutorial.ipynb)
     - json
     ```json
     # json 기본 구조
@@ -345,7 +344,17 @@ IoT 파이썬 학습 리포지토리
     }
     ```
 
-## Day08
-- 웹 크롤링
-- GUI(윙폼)
-- 웹_파이썬
+## Day8
+1. 파이썬 응용
+    - 라이브러리 사용법
+        - urllib.request
+    - 웹 크롤링
+        - 기상청 오늘의 날씨 크롤링
+        - 데이터 포털 OpenAPI 크롤링
+        - BeautifulSoup 크롤링
+
+## Day9
+1. 파이썬 응용
+    - 자료구조 추가
+    - 윈폼 개발(GUI)
+    - 응용 학습
