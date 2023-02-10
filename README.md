@@ -370,5 +370,5 @@ IoT 파이썬 학습 리포지토리
         - PyQt 위젯 계속
         - PyQt 다이얼로그
         
-          PyQt 실행화면       
+          PyQt 실행화면 [file_dialog source](Day10/code60_pyqt_filedialog.py)       
           ![실행화면](https://github.com/llsuzn/Python/blob/main/images/dialog.png?raw=true)
