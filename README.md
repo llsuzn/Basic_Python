@@ -369,5 +369,6 @@ IoT 파이썬 학습 리포지토리
     - GUI 개발
         - PyQt 위젯 계속
         - PyQt 다이얼로그
-![실행화면]()
+        
+![실행화면](https://github.com/llsuzn/Python/blob/main/images/dialog.png?raw=true)
 PyQt 실행화면
