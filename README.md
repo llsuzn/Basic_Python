@@ -361,4 +361,17 @@ IoT 파이썬 학습 리포지토리
     - GUI 개발
         - Tkinter 소개
         - PyQt 소개, 설치
-    - 자료구조 추가
+        - PyQt 기본 사용법
+        - 위젯
+
+## Day10
+1. 파이썬 응용
+    - GUI 개발
+        - PyQt 위젯 계속
+        - PyQt 다이얼로그
+        
+          PyQt 실행화면 [file_dialog source](Day10/code60_pyqt_filedialog.py)       
+          ![실행화면](https://github.com/llsuzn/Python/blob/main/images/dialog.png?raw=true)
+
+## Day11
+1. 자료구조 알고리즘
